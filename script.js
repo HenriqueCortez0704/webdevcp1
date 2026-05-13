@@ -223,3 +223,204 @@ ________________________________________________________________________________
 
 // Quando a condição depende de algo que só acontece dentro do bloco
 // A condição só pode ser avaliada depois da primeira execução.
+____________________________________________________________________________________________________________________
+//alert("Hello Wordl!!");
+//prompt("Qual é seu nome");
+//confirm("Voce deseja sair ?");
+ 
+//console.log("sfnjdfdbasfuaia");
+ 
+//let nome = "Caio";
+//const pi = 3.1415;
+//alert(nome);
+ 
+//let nome = prompt("Qual Digite seu nome:")
+//alert(nome)
+ 
+//let nome = prompt("Qual é o seu nome? ")
+//let idade = prompt("Qual é a sua idade")
+//alert(`Olá ${nome}, voce tem ${idade} anos.`)
+ 
+// let nome = prompt("Qual seu nome ? ")
+// let idade = prompt("Qual seu idade ? ")
+// let curso = prompt("Qual seu curso ? ")
+ 
+// alert(`Olá, meu nome é ${nome}, tenho ${idade} anos e estudo ${curso} na FIAP.`)
+ 
+// //ENTRADA
+// let distancia = prompt("Digite a sua distancia em metros para converter para cm: ")
+// //PROCESSAMENTO
+// let cm = distancia * 100
+// //SAIDA
+// alert(`A conversão de ${distancia} metros é ${cm} centimetros`)
+ 
+ 
+// //ENTRADA
+// let peso = Number(prompt("Qual é seu peso em Kg ? "))
+// let altura = Number(prompt("Qual é a sua altura em metros ? "))
+// //PROCESAMENTO
+// let imc = peso / (altura * altura)
+// //SAIDA
+// alert(`Seu IMC é: ${imc.toFixed(2)}`)
+ 
+// let n1 = parseFloat(prompt("Digite o primeiro numero: "));
+// let n2 = parseFloat(prompt("Digite o segundo numero: "));
+ 
+// let soma = n1 + n2;
+ 
+// alert(`A soma dos dois numeros é de: ${soma.toFixed(2)}`);
+ 
+ 
+// function saudacao(nome, periodo = "dia"){
+//     return `Olá ${nome}, boa ${periodo}`;
+// }
+ 
+// saudacao("Rafael")
+// saudacao("Lucas")
+// saudacao("Rafaela")
+ 
+// Desafio 1
+ 
+// function num(a, b){
+//     if (a > b) {
+//         return`O maior numero é ${a}`
+//     }
+//     if (b > a) {
+//         return`O  maior numero é ${b}`
+//     }
+//     return "São Iguais"
+// }
+// alert(num(5,7))
+ 
+// Desafio 2
+ 
+// function transformarTexto(texto){
+//    return texto.toUpperCase().trim();
+// }
+ 
+// alert(transformarTexto("   ola   "))
+ 
+// Desafio 4
+ 
+// function verificarPalpite(palpite){
+//     const numeroAleatorio = Math.floor(Math.random() * 10) + 1
+ 
+//     if (isNaN(palpite)) {
+//         return "Digite um numero valido!"
+//     }
+ 
+//     if (palpite === numeroAleatorio) {
+//         return "Acertou! O numero era " + numeroAleatorio
+//     }
+ 
+//     return "Errou! O numero era" + numeroAleatorio + "e voce chutou" + palpite
+// }
+ 
+// const tentativa = Number(prompt("Chute um numero de 1 a 10: "))
+// alert(verificarPalpite(tentativa))
+ 
+ 
+ 
+ 
+//LAÇOS DE REPETIÇÃO
+ 
+// let i = 0;
+ 
+// while(i < 10){
+//     console.log(i);
+//     i++;
+// }
+ 
+// let num = Number(prompt("Digite um numero: "))
+// while (num > 0){
+//     console.log(num);
+//     num--;
+// }
+ 
+// MESMA COISA POREM USANDO FUNÇÃO
+ 
+// function diminuir(numero){
+//     while (numero > 0){
+//         console.log(numero);
+//         numero--;
+//     }
+// }
+ 
+// let numero = Number(prompt("Digite um numero: "))
+// diminuir(numero)
+ 
+// let count = 0;
+// do {
+//     console.log(count);
+//     count++;
+// } while (count< 5)
+ 
+ 
+ 
+// let nome;
+// let idade;
+// let salario;
+// let genero;
+// let estado;
+ 
+// do{
+//     nome = prompt("Digite seu nome: ")
+//     if(nome.length < 3){
+//         alert("Digite um nome válido")
+//     }
+// } while(nome.length < 3)
+ 
+ 
+// do{
+//     idade = Number(prompt("Digite sua idade: "))
+//     if(idade <= 0 || idade >= 150){
+//         alert("Digite uma idade entre 0 e 150 anos")
+//     }
+// } while (idade <= 0 || idade >= 150)
+ 
+ 
+// do{
+//     salario = parseFloat(prompt("Digite seu salario: "))
+//     if(salario <= 0){
+//         alert("Digite um salario maior que 0")
+//     }
+// } while (salario <= 0 )
+ 
+ 
+// do{
+//     genero = prompt("Digite seu genero: ")
+//     if(genero !== "f" && genero !== "m"){
+//         alert("Digite um genero igual a f ou m")
+//         }
+// } while (genero !== "f" && genero !== "m")
+ 
+ 
+// do{
+//     estado = prompt("Digite seu estado: ")
+//     if(estado !== "s" && estado !== "c" && estado !== "v" && estado !== "d"){
+//         alert("Digite um estado como s, c, v, d")
+//     }
+       
+// } while (estado !== "s" && estado !== "c" && estado !== "v" && estado !== "d")
+ 
+// alert("Dados concluidos!")
+ 
+ 
+ 
+ 
+// for(let i = 0; i < 10; i++){
+//     console.log(i)
+// }
+ 
+ 
+ 
+// for(let i = 10; i > 10; i--){
+//     console.log(i)
+// }
+ 
+// let num = Number(prompt("Digite o numero para ver a tabuada desse numero: "))
+// let tabuada = ""
+// for(let i = 1; i <= 10; i++){
+//     tabuada += num + " x " + i + " = " + (num * i) + "\n";
+// }
+// alert(tabuada)
